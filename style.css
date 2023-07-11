@@ -1,0 +1,710 @@
+body {
+
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+
+    /* Header // search bar */
+
+header {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 5px;
+    gap: 32px;
+    width: 100vw;
+    height: 10%;
+    position: fixed;
+    background-color: #f5f5f5;
+}
+
+.titulo__header {
+
+    display: flex;
+    width: 176px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.barraBusqueda {
+
+    display: flex;
+    width: 393px;
+    padding: 8px 16px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    border-radius: 28px;
+    background: var(--preto-05, #f5f5f5);
+    cursor: pointer;
+
+}
+
+.barraBusqueda__input {
+
+    color: var(--preto-50, #a2a2a2);
+    font-size: 14px;
+    width: 90%;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+.barraBusqueda__imagen {
+
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+
+}
+
+.titulo__header-btn {
+
+    width: 182px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border: 1px solid var(--azul-100, #2a7ae4);
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+
+}
+
+    /* Banner promocional */
+
+.banner {
+
+    display: flex;
+    height: 38%;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    background: var(--imagemhero, linear-gradient(180deg, rgba(0, 0, 0, 0.00) 41.15%, rgba(0, 0, 0, 0.80) 100%), url(imagenes/imagemhero.png), lightgray 50% / cover no-repeat);
+    background-size: cover;
+
+}
+
+.banner__texto {
+
+    width: 100%;
+
+}
+
+.banner__texto h1 {
+
+    color: var(--preto-blanco, #fff);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.banner__texto p {
+
+    color: var(--preto-blanco, #fff);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.banner button {
+
+    padding: 13px;
+    justify-content: center;
+    background: var(--azul-100, #2a7ae4);
+    color: var(--preto-blanco, #fff);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+    cursor: pointer;
+
+}
+
+    /* Linea de productos Star Wars */
+
+.starwars {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 30px;
+
+}
+
+.starwars__titulos-productos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.starwars__titulos-productos h1{
+
+    color: var(--preto-100, #464646);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.starwars__titulos-productos a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.starwars__productos {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+
+}
+
+.starwars__productos-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.starwars__productos-container h4 {
+
+    color: var(--preto-100, #464646);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.starwars__productos-container p {
+
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.starwars__productos-container a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+
+    /* Linea de producto de consolas // Productos */
+
+.consolas {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 50px;
+
+}
+
+.consolas__titulos-productos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.consolas__titulos-productos h1 {
+
+    color: var(--preto-100, #464646);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.consolas__titulos-productos a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.consolas__productos {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+
+}
+
+.consolas__productos-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.consolas__productos-container h4 {
+
+    color: var(--preto-100, #464646);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.consolas__productos-container p {
+
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.consolas__productos-container a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+    /* Seccion Diversos // Productos */
+
+.diversos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-top: 50px;
+
+}
+
+.diversos__titulos-productos {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.diversos__titulos-productos h1 {
+
+    color: var(--preto-100, #464646);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.diversos__titulos-productos a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.diversos__productos {
+
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    width: 100%;
+
+}
+
+.diversos__productos-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.diversos__productos-container h4 {
+
+    color: var(--preto-100, #464646);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.diversos__productos-container p {
+
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.diversos__productos-container a {
+
+    color: var(--azul-100, #2a7ae4);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+
+    /* Footer */
+
+.footer__container {
+
+    display: flex;
+    padding: 64px;
+    justify-content: center;
+    align-items: center;
+    background: var(--azul-10, #eaf2fd);
+    margin-top: 35px;
+    gap: 115px;
+
+}
+
+.footer__logo {
+
+    display: flex;
+    width: 176px;
+    justify-content: center;
+    align-items: center;
+    align-self: flex-start;
+    
+}
+
+.footer__quienes-somos {
+
+    display: flex;
+    width: 176px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    list-style: none;
+
+}
+
+.footer__quienes-somos a {
+
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.footer__form {
+
+    display: flex;
+    width: 560px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+
+}
+
+.footer__form h4 {
+
+    color: var(--preto-100, #464646);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+
+}
+
+.footer__form input {
+
+    border-radius: 4px;
+    background: var(--preto-blanco, #fff);
+    padding: 8px 12px 8px 12px;
+    color: var(--preto-100, #464646);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 90%;
+    border: none;
+    margin-bottom: 10px;
+    margin-top: 3px;
+    outline: none;
+
+}
+
+#mensaje {
+
+    border-radius: 4px;
+    background: var(--preto-blanco, #fff);
+    padding: 8px 12px 8px 12px;
+    color: var(--preto-100, #464646);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    width: 90%;
+    height: 82px;
+    border: none;
+    text-align: start;
+    font-family: 'Ralaway';
+    resize: none;
+    margin-bottom: 10px;
+    outline: none;
+
+}
+
+.footer__form button {
+
+    padding: 16px;
+    background: var(--azul-100, #2a7ae4);
+    color: var(--preto-blanco, #fff);
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: none;
+
+}
+
+    /* Rodapie */
+
+.rodapie {
+
+    text-align: center;
+
+}    
+
+
+    /* Responsive tablet */
+
+@media (max-width:1366px) {
+
+    .banner {
+
+        height: 38%;
+
+    }
+
+    .barraBusqueda {
+
+        width: 272px;
+
+    }
+    
+
+    .starwars__producto5 {
+
+        display: none;
+
+    }
+
+    .starwars__producto6 {
+
+        display: none;
+
+    }
+
+    .consolas__producto5 {
+
+        display: none;
+
+    }
+
+    .consolas__producto6 {
+
+        display: none;
+
+    }
+
+    .diversos__producto5 {
+
+        display: none;
+
+    }
+
+    .diversos__producto6 {
+
+        display: none;
+
+    }
+
+    .footer__container {
+
+        padding: 20px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+
+    }
+
+    .footer__quienes-somos {
+
+        padding: 0;
+
+    }
+
+    .footer__form {
+
+        align-self: flex-end;
+        position: absolute;
+        width: 434px;
+    }
+}
+
+    /* Responsive telefono */
+
+@media (max-width:700px) {
+
+    .titulo__header {
+
+        width: fit-content;
+        order: -1;
+
+    }
+
+    .logo__texto {
+        
+        display: none;
+
+    }
+
+    .barraBusqueda {
+
+        width: fit-content;
+
+    }
+
+    .barraBusqueda__input {
+
+        display: none;
+
+    }
+
+    .titulo__header-btn {
+
+        width: 100px;
+        order: -1;
+
+    }
+
+    .banner {
+
+        height: 50%;
+
+    }
+
+    .starwars__productos {
+        
+        gap: 10px;
+        flex-wrap: wrap;
+        
+    }
+
+    .consolas__productos {
+
+        gap: 10px;
+        flex-wrap: wrap;
+
+    }
+
+    .diversos__productos {
+
+        gap: 10px;
+        flex-wrap: wrap;
+    
+    }
+
+    .footer__form {
+
+        position: initial;
+        width: 100%;
+
+    }
+
+    .footer__form h4 {
+
+        margin: 20px 0px 0px 0px;
+        
+    }
+
+}
