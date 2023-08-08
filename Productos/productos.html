@@ -26,8 +26,10 @@
     <!-- Header -->
     <header>
       <div class="titulo__header">
+        <a href="../index.html">
         <img src="../imagenes/sports_esports_black_24dp 1.png" alt="control" />
-        <img src="../imagenes/texto.png" alt="texto" class="logo__texto" />
+        <img src="../imagenes/texto.png" alt="texto"  class="logo__texto"/>
+        </a>
       </div>
       <div class="barraBusqueda">
         <input
@@ -186,21 +188,12 @@
             <li><a href="">Anuncie aqui</a></li>
           </ul>
         </div>
-        <form action="" class="footer__form">
-          <h4>Hable con nosotros</h4>
-          <input
-            type="text"
-            name="nombre"
-            id="nombre"
-            placeholder="Nombre y Apellido"
-          />
-          <textarea
-            name="mensaje"
-            id="mensaje"
-            placeholder="Escribe tu mensaje"
-          ></textarea>
-          <button>Enviar Mensaje</button>
-        </form>
+            <form action="" class="footer__form" id="form">
+                <h4>Hable con nosotros</h4>
+                <input type="text" name="nombre" class="nombre" id="nombre" placeholder="Nombre y Apellido">
+                <textarea name="mensaje" class="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit" id="btn-form">Enviar Mensaje</button>
+            </form>
       </div>
       <div class="rodapie">
         <p>Desarrollado por Matias Arias</p>
@@ -208,4 +201,6 @@
       </div>
     </footer>
   </body>
+  <script src="../main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

@@ -34,6 +34,20 @@ header {
 
 }
 
+.titulo__header a {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo__texto {
+
+    width: 127px;
+    height: 19px;
+
+}
+
 .barraBusqueda {
 
     display: flex;
@@ -136,8 +150,8 @@ header {
 
 .iniciosesion__btn {
 
-    width: 200px;
-    height: 55px;
+    width: 180px;
+    height: 40px;
     padding: 12px 16px;
     justify-content: center;
     align-items: center;
@@ -147,7 +161,9 @@ header {
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
 
 }
     /* Footer */
@@ -232,6 +248,7 @@ header {
     margin-bottom: 10px;
     margin-top: 3px;
     outline: none;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -253,6 +270,7 @@ header {
     resize: none;
     margin-bottom: 10px;
     outline: none;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -266,6 +284,7 @@ header {
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
 
 }
 

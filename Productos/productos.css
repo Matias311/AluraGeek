@@ -34,6 +34,20 @@ header {
 
 }
 
+.titulo__header a {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo__texto {
+
+    width: 127px;
+    height: 19px;
+
+}
+
 .barraBusqueda {
 
     display: flex;

@@ -34,6 +34,20 @@ header {
 
 }
 
+.titulo__header a {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.logo__texto {
+
+    width: 127px;
+    height: 19px;
+
+}
+
 .barraBusqueda {
 
     display: flex;
@@ -120,7 +134,7 @@ header {
     font-weight: 700;
     line-height: normal;
     margin: 22px 0px
-
+    
 }
 
 .form__url {
@@ -137,7 +151,7 @@ header {
     padding-left: 5px;
     outline: none;
     border-radius: 10px;
-
+    font-family: 'Raleway', sans-serif;
 }
 
 .form__categoria {
@@ -154,6 +168,7 @@ header {
     padding-left: 5px;
     outline: none;
     border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -171,6 +186,7 @@ header {
     padding-left: 5px;
     outline: none;
     border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -188,7 +204,7 @@ header {
     padding-left: 5px;
     outline: none;
     border-radius: 10px;
-
+    font-family: 'Raleway', sans-serif;
 }
 
 .form__descripcion {
@@ -206,6 +222,7 @@ header {
     outline: none;
     border-radius: 10px;
     resize: none;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -222,6 +239,7 @@ header {
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
     
 }
 
@@ -308,6 +326,7 @@ header {
     margin-bottom: 10px;
     margin-top: 3px;
     outline: none;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -329,6 +348,7 @@ header {
     resize: none;
     margin-bottom: 10px;
     outline: none;
+    font-family: 'Raleway', sans-serif;
 
 }
 
@@ -342,6 +362,7 @@ header {
     font-weight: 400;
     line-height: normal;
     border: none;
+    cursor: pointer;
 
 }
 

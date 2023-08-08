@@ -15,15 +15,24 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="login.css" />
-    <link rel="shortcut icon" href="../imagenes/sports_esports_black_24dp 1.png" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="../imagenes/sports_esports_black_24dp 1.png"
+      type="image/x-icon"
+    />
     <title>AluraGeek</title>
   </head>
   <body>
-        <!-- Header -->
+    <!-- Header -->
     <header>
       <div class="titulo__header">
-        <img src="../imagenes/sports_esports_black_24dp 1.png" alt="control" />
-        <img src="../imagenes/texto.png" alt="texto" class="logo__texto" />
+        <a href="../index.html">
+          <img
+            src="../imagenes/sports_esports_black_24dp 1.png"
+            alt="control"
+          />
+          <img src="../imagenes/texto.png" alt="texto" class="logo__texto" />
+        </a>
       </div>
       <div class="barraBusqueda">
         <input
@@ -39,45 +48,55 @@
       </div>
     </header>
 
-        <!-- Iniciar secion -->
+    <!-- Iniciar secion -->
 
     <section class="iniciosesion">
-        <div class="iniciosesion__container">
-            <h1>Iniciar Sesion</h1>
-            <input type="email" class="input__email" placeholder="Escriba su correo electronico">
-            <input type="password" class="input__password" placeholder="Escriba su contraseña">
-        </div>
-        <button class="iniciosesion__btn">Entrar</button>
+      <div class="iniciosesion__container">
+        <h1>Iniciar Sesion</h1>
+        <input
+          type="email"
+          class="input__email"
+          placeholder="Escriba su correo electronico"
+        />
+        <input
+          type="password"
+          class="input__password"
+          placeholder="Escriba su contraseña"
+        />
+      </div>
+      <a href="../Agregar producto/agregado.html" class="iniciosesion__btn">Entrar</a>
     </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
     <footer>
-        <div class="footer__container">
-            <div class="footer__logo">
-                <img src="../imagenes/sports_esports_black_24dp 1.png" alt="">
-                <img src="../imagenes/texto.png" alt="">
-            </div>
-            <div>
-                <ul class="footer__quienes-somos">
-                    <li><a href="">Quienes somos</a></li>
-                    <li><a href="">Politica de privacidad</a></li>
-                    <li><a href="">Programa de fidelidad</a></li>
-                    <li><a href="">Nuestras tiendas</a></li>
-                    <li><a href="">Quiero ser franquiciado</a></li>
-                    <li><a href="">Anuncie aqui</a></li>
-                </ul>
-            </div>
-            <form action="" class="footer__form">
+      <div class="footer__container">
+        <div class="footer__logo">
+          <img src="../imagenes/sports_esports_black_24dp 1.png" alt="" />
+          <img src="../imagenes/texto.png" alt="" />
+        </div>
+        <div>
+          <ul class="footer__quienes-somos">
+            <li><a href="">Quienes somos</a></li>
+            <li><a href="">Politica de privacidad</a></li>
+            <li><a href="">Programa de fidelidad</a></li>
+            <li><a href="">Nuestras tiendas</a></li>
+            <li><a href="">Quiero ser franquiciado</a></li>
+            <li><a href="">Anuncie aqui</a></li>
+          </ul>
+        </div>
+            <form action="" class="footer__form" id="form">
                 <h4>Hable con nosotros</h4>
-                <input type="text" name="nombre" id="nombre" placeholder="Nombre y Apellido">
-                <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
-                <button>Enviar Mensaje</button>
+                <input type="text" name="nombre" class="nombre" id="nombre" placeholder="Nombre y Apellido">
+                <textarea name="mensaje" class="mensaje" id="mensaje" placeholder="Escribe tu mensaje"></textarea>
+                <button type="submit" id="btn-form">Enviar Mensaje</button>
             </form>
-        </div>
-        <div class="rodapie">
-            <p>Desarrollado por Matias Arias</p>
-            <p>2023</p>
-        </div>
+      </div>
+      <div class="rodapie">
+        <p>Desarrollado por Matias Arias</p>
+        <p>2023</p>
+      </div>
     </footer>
   </body>
+  <script src="../main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </html>

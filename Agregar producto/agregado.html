@@ -26,27 +26,57 @@
     <!-- Header -->
     <header>
       <div class="titulo__header">
-        <img src="../imagenes/sports_esports_black_24dp 1.png" alt="control" />
-        <img src="../imagenes/texto.png" alt="texto"  class="logo__texto"/>
+        <a href="../index.html">
+          <img
+            src="../imagenes/sports_esports_black_24dp 1.png"
+            alt="control"
+          />
+          <img src="../imagenes/texto.png" alt="texto" class="logo__texto" />
+        </a>
       </div>
       <div class="barraBusqueda">
-        <input type="text" placeholder="¿Qué deseas buscar?" class="barraBusqueda__input"/>
-        <img src="../imagenes/busqueda-Icone.png" alt="lupa" class="barraBusqueda__imagen"/>
+        <input
+          type="text"
+          placeholder="¿Qué deseas buscar?"
+          class="barraBusqueda__input"
+        />
+        <img
+          src="../imagenes/busqueda-Icone.png"
+          alt="lupa"
+          class="barraBusqueda__imagen"
+        />
       </div>
-      <button type="button" class="titulo__header-btn">Menu Administrador</button>
+      <button type="button" class="titulo__header-btn">
+        Menu Administrador
+      </button>
     </header>
 
     <!-- Agregar nuevo producto -->
     <section class="agregado__container">
-        <form action="" class="agregado__form">
-            <h1>Agregar nuevo producto</h1>
-            <input type="url" class="form__url" placeholder="Escriba la URL de la imagen">
-            <input type="text" class="form__categoria" placeholder="Categoria">
-            <input type="text" class="form__nombreproducto" placeholder="Nombre del producto">
-            <input type="text" class="form__precio" placeholder="Precio del producto">
-            <textarea placeholder="Descripcion del producto" class="form__descripcion"></textarea>
-        </form>
-        <button class="agregado__form-btn">Agregar Producto</button>
+      <form action="" class="agregado__form">
+        <h1>Agregar nuevo producto</h1>
+        <input
+          type="url"
+          class="form__url"
+          placeholder="Escriba la URL de la imagen"
+        />
+        <input type="text" class="form__categoria" placeholder="Categoria" />
+        <input
+          type="text"
+          class="form__nombreproducto"
+          placeholder="Nombre del producto"
+        />
+        <input
+          type="text"
+          class="form__precio"
+          placeholder="Precio del producto"
+        />
+        <textarea
+          placeholder="Descripcion del producto"
+          class="form__descripcion"
+        ></textarea>
+      </form>
+      <button type="submit" class="agregado__form-btn">Agregar Producto</button>
     </section>
 
     <!-- Footer -->
@@ -66,20 +96,22 @@
             <li><a href="">Anuncie aqui</a></li>
           </ul>
         </div>
-        <form action="" class="footer__form">
+        <form action="" class="footer__form" id="form">
           <h4>Hable con nosotros</h4>
           <input
             type="text"
             name="nombre"
+            class="nombre"
             id="nombre"
             placeholder="Nombre y Apellido"
           />
           <textarea
             name="mensaje"
+            class="mensaje"
             id="mensaje"
             placeholder="Escribe tu mensaje"
           ></textarea>
-          <button>Enviar Mensaje</button>
+          <button type="submit" id="btn-form">Enviar Mensaje</button>
         </form>
       </div>
       <div class="rodapie">
@@ -87,5 +119,7 @@
         <p>2023</p>
       </div>
     </footer>
+    <script src="../main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>
 </html>
